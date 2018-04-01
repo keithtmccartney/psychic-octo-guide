@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\noobchain.Library\noobchain.Library.csproj">
+      <Project>{4e3c888d-17d7-4bc9-a37a-8f0aef6f4fd5}</Project>
+      <Name>noobchain.Library</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
