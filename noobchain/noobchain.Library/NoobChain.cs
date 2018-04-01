@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace noobchain.Library
 {
-    public class Class1
+    public class NoobChain
     {
     }
 }
