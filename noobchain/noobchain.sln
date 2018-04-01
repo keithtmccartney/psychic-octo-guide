@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "noobchain.Library", "noobchain.Library\noobchain.Library.csproj", "{4E3C888D-17D7-4BC9-A37A-8F0AEF6F4FD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "noobchain.Tests", "noobchain.Tests\noobchain.Tests.csproj", "{43E8C6AA-66AF-4898-8585-10B8E23AB73F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "noobchain.App", "noobchain.App\noobchain.App.csproj", "{017DA3DF-2915-4819-8CC3-88661BEDF443}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E3C888D-17D7-4BC9-A37A-8F0AEF6F4FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3C888D-17D7-4BC9-A37A-8F0AEF6F4FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3C888D-17D7-4BC9-A37A-8F0AEF6F4FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3C888D-17D7-4BC9-A37A-8F0AEF6F4FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43E8C6AA-66AF-4898-8585-10B8E23AB73F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E8C6AA-66AF-4898-8585-10B8E23AB73F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E8C6AA-66AF-4898-8585-10B8E23AB73F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E8C6AA-66AF-4898-8585-10B8E23AB73F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{017DA3DF-2915-4819-8CC3-88661BEDF443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{017DA3DF-2915-4819-8CC3-88661BEDF443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{017DA3DF-2915-4819-8CC3-88661BEDF443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{017DA3DF-2915-4819-8CC3-88661BEDF443}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

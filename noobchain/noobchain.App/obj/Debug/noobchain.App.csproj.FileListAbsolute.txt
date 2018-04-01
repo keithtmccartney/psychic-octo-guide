@@ -1,0 +1,7 @@
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.App\bin\Debug\noobchain.App.exe.config
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.App\bin\Debug\noobchain.App.exe
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.App\bin\Debug\noobchain.App.pdb
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.App\obj\Debug\noobchain.App.csprojResolveAssemblyReference.cache
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.App\obj\Debug\noobchain.App.csproj.CoreCompileInputs.cache
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.App\obj\Debug\noobchain.App.exe
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.App\obj\Debug\noobchain.App.pdb

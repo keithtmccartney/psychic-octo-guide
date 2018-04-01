@@ -1,0 +1,13 @@
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.Tests\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.Tests\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.Tests\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.Tests\bin\Release\noobchain.Tests.dll
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.Tests\bin\Release\noobchain.Tests.pdb
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.Tests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.Tests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.Tests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.Tests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.Tests\obj\Release\noobchain.Tests.csprojResolveAssemblyReference.cache
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.Tests\obj\Release\noobchain.Tests.csproj.CoreCompileInputs.cache
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.Tests\obj\Release\noobchain.Tests.dll
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.Tests\obj\Release\noobchain.Tests.pdb

@@ -1,0 +1,6 @@
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.Library\bin\Release\noobchain.Library.dll
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.Library\bin\Release\noobchain.Library.pdb
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.Library\obj\Release\noobchain.Library.csprojResolveAssemblyReference.cache
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.Library\obj\Release\noobchain.Library.csproj.CoreCompileInputs.cache
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.Library\obj\Release\noobchain.Library.dll
+C:\git\Source\Repos\psychic-octo-guide\noobchain\noobchain.Library\obj\Release\noobchain.Library.pdb
