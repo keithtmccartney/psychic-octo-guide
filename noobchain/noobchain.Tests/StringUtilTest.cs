@@ -9,7 +9,6 @@ namespace noobchain.Tests
     public class StringUtilTest
     {
         String _data = "Hi im the first block";
-        String _previousHash = "0";
 
         [TestMethod]
         public void StringUtilTestMethod()
