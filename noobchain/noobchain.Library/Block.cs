@@ -13,6 +13,7 @@ namespace noobchain.Library
         public String previousHash; //hold the previous block's hash;
         private String data; //hold block data; our data will be a simple message;
         private long timeStamp; //as number of milliseconds since 1/1/1970;
+        private int nonce;
 
         //Block Constructor.
         public Block(String data, String previousHash)
@@ -37,11 +38,26 @@ namespace noobchain.Library
             return diff / 1000;
         }
 
+        //Calculate new hash based on blocks contents
         public String calculateHash()
         {
-            String calculatedhash = StringUtil.applySha256(previousHash + Convert.ToString(timeStamp) + data);
+            String calculatedhash = StringUtil.applySha256(previousHash + Convert.ToString(timeStamp) + Convert.ToString(nonce) + data);
 
             return calculatedhash;
+        }
+
+        public void mineBlock(int difficulty)
+        {
+            String target = new String(new char[difficulty]).Replace('\0', '0'); //Create a string with difficulty * "0"
+
+            while (!hash.Substring(0, difficulty).Equals(target))
+            {
+                nonce++;
+
+                hash = calculateHash();
+            }
+
+            Console.WriteLine("Block Mined!!! : " + hash);
         }
     }
 }
