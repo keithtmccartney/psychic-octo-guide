@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Newtonsoft.Json;
 using noobchain.Library;
 
 namespace noobchain.Tests
@@ -24,6 +26,9 @@ namespace noobchain.Tests
             block.calculateHash();
         }
 
+        /// <summary>
+        /// Each block now has its own digital signature based on its information and the signature of the previous block;
+        /// </summary>
         [TestMethod]
         public void BlockHashTestMethod()
         {
@@ -35,6 +40,21 @@ namespace noobchain.Tests
 
             Block thirdBlock = new Block("Hey im the third block", secondBlock.hash);
             Console.WriteLine("Hash for block 3 : " + thirdBlock.hash);
+        }
+
+        [TestMethod]
+        public void BlockchainTestMethod()
+        {
+            List<Block> blockchain = new List<Block>();
+
+            //add our blocks to the blockchain ArrayList:
+            blockchain.Add(new Block("Hi im the first block", "0"));
+            blockchain.Add(new Block("Yo im the second block", blockchain[blockchain.Count - 1].hash));
+            blockchain.Add(new Block("Hey im the third block", blockchain[blockchain.Count - 1].hash));
+
+            String blockchainJson = JsonConvert.SerializeObject(blockchain);
+
+            Console.WriteLine(blockchainJson);
         }
     }
 }

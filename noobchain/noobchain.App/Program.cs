@@ -3,22 +3,25 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 using noobchain.Library;
 
 namespace noobchain.App
 {
     public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Block genesisBlock = new Block("Hi im the first block", "0");
-            Console.WriteLine("Hash for block 1 : " + genesisBlock.hash);
+            List<Block> blockchain = new List<Block>();
 
-            Block secondBlock = new Block("Yo im the second block", genesisBlock.hash);
-            Console.WriteLine("Hash for block 2 : " + secondBlock.hash);
+            //add our blocks to the blockchain ArrayList:
+            blockchain.Add(new Block("Hi im the first block", "0"));
+            blockchain.Add(new Block("Yo im the second block", blockchain[blockchain.Count - 1].hash));
+            blockchain.Add(new Block("Hey im the third block", blockchain[blockchain.Count - 1].hash));
 
-            Block thirdBlock = new Block("Hey im the third block", secondBlock.hash);
-            Console.WriteLine("Hash for block 3 : " + thirdBlock.hash);
+            String blockchainJson = JsonConvert.SerializeObject(blockchain);
+
+            Console.WriteLine(blockchainJson);
         }
     }
 }
